@@ -1,4 +1,14 @@
 ```
+
+kubectl get ing
+nslookup ......
+
+kubectl get ing --namespace cafe
+kubectl get ing --namespace tea
+
+```
+
+```
 namespace: default
  cafe-master.yaml
 
