@@ -90,3 +90,5 @@ Request ID: 5df677b0bf74a157777476dbeec10c17
 * Connection #0 to host cafe.example.com left intact
 * Closing connection 0
 ```
+
+* https://github.com/nginxinc/kubernetes-ingress/tree/v1.6.3/examples/mergeable-ingress-types
