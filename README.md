@@ -1,6 +1,6 @@
 ```
 namespace: default
--- cafe-master.yaml
+ cafe-master.yaml
 
 
 namespace:cafe
