@@ -36,7 +36,7 @@ curl -v --resolve cafe.example.com:$IC_HTTPS_PORT:$IC_IP http://cafe.example.com
 curl -v --resolve cafe.example.com:$IC_HTTPS_PORT:$IC_IP http://cafe.example.com:$IC_HTTPS_PORT/tea --insecure
 ```
 
-![](how-to-use-resolve.png)
+
 
 ```
 qzhaos-MBP:tst8 qzhao$ curl -v --resolve cafe.example.com:$IC_HTTPS_PORT:$IC_IP http://cafe.example.com:$IC_HTTPS_PORT/coffee --insecure
@@ -99,3 +99,8 @@ Request ID: 5df677b0bf74a157777476dbeec10c17
 ```
 
 * https://github.com/nginxinc/kubernetes-ingress/tree/v1.6.3/examples/mergeable-ingress-types
+
+
+---
+How to use resolve in curl
+![](how-to-use-resolve.png)
