@@ -36,7 +36,7 @@ curl -v --resolve cafe.example.com:$IC_HTTPS_PORT:$IC_IP http://cafe.example.com
 curl -v --resolve cafe.example.com:$IC_HTTPS_PORT:$IC_IP http://cafe.example.com:$IC_HTTPS_PORT/tea --insecure
 ```
 
-
+![](how-to-use-resolve.png)
 
 ```
 qzhaos-MBP:tst8 qzhao$ curl -v --resolve cafe.example.com:$IC_HTTPS_PORT:$IC_IP http://cafe.example.com:$IC_HTTPS_PORT/coffee --insecure
