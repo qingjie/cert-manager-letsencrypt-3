@@ -1,5 +1,6 @@
-namespace:default
-cafe-master.yaml
+```
+namespace: default
+-- cafe-master.yaml
 
 
 namespace:cafe
@@ -10,6 +11,8 @@ coffee.yaml
 namespace:tea
 tea.yaml
 tea-minion.yaml
+```
+
 
 ```
 curl -v --resolve cafe.example.com:$IC_HTTPS_PORT:$IC_IP http://cafe.example.com:$IC_HTTPS_PORT/coffee --insecure
