@@ -1,8 +1,10 @@
+![](ingress-nginx-official.png)
 https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/
 
 I am using helm2. You can set namespace as well
 
 ![](install-ingress.png)
+
 
 
 ```
